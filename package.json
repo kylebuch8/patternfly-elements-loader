@@ -5,20 +5,23 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "demo": "http-server"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@hapi/hapi": "^18.3.1",
-    "@patternfly/pfe-accordion": "^1.0.0-prerelease.17",
-    "@patternfly/pfe-autocomplete": "^1.0.0-prerelease.17",
-    "@patternfly/pfe-card": "^1.0.0-prerelease.17",
-    "@patternfly/pfe-content-set": "^1.0.0-prerelease.17",
-    "@patternfly/pfe-cta": "^1.0.0-prerelease.17",
-    "@patternfly/pfe-datetime": "^1.0.0-prerelease.17",
-    "@patternfly/pfe-tabs": "^1.0.0-prerelease.17",
-    "browserify": "^16.3.0",
+    "@hapi/hapi": "^18.4.1",
+    "@patternfly/pfe-accordion": "^1.0.0-prerelease.37",
+    "@patternfly/pfe-autocomplete": "^1.0.0-prerelease.37",
+    "@patternfly/pfe-card": "^1.0.0-prerelease.38",
+    "@patternfly/pfe-content-set": "^1.0.0-prerelease.38",
+    "@patternfly/pfe-cta": "^1.0.0-prerelease.38",
+    "@patternfly/pfe-datetime": "^1.0.0-prerelease.36",
+    "@patternfly/pfe-tabs": "^1.0.0-prerelease.38",
+    "browserify": "^16.5.0",
     "concat": "^1.0.3"
+  },
+  "devDependencies": {
+    "http-server": "^0.12.1"
   }
 }

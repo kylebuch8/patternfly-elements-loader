@@ -19,7 +19,7 @@ const init = async () => {
       const suffix = ".umd.min.js";
       const requestedElements = request.query.elements.split(",");
       const elementsToLoad = requestedElements.map(element => {
-        return `${folderPrefix}/${elementPrefix}${element}/${elementPrefix}${element}${suffix}`;
+        return `${folderPrefix}/${elementPrefix}${element}/dist/${elementPrefix}${element}${suffix}`;
       });
 
       const promise = new Promise((resolve, reject) => {
@@ -29,7 +29,7 @@ const init = async () => {
           }
 
           resolve(h.response(buffer).type("application/javascript"));
-        })
+        });
       });
 
       return promise;
