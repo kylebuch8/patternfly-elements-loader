@@ -1,0 +1,24 @@
+{
+  "name": "patternfly-elements-loader",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^18.3.1",
+    "@patternfly/pfe-accordion": "^1.0.0-prerelease.17",
+    "@patternfly/pfe-autocomplete": "^1.0.0-prerelease.17",
+    "@patternfly/pfe-card": "^1.0.0-prerelease.17",
+    "@patternfly/pfe-content-set": "^1.0.0-prerelease.17",
+    "@patternfly/pfe-cta": "^1.0.0-prerelease.17",
+    "@patternfly/pfe-datetime": "^1.0.0-prerelease.17",
+    "@patternfly/pfe-tabs": "^1.0.0-prerelease.17",
+    "browserify": "^16.3.0",
+    "concat": "^1.0.3"
+  }
+}
